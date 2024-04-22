@@ -21,7 +21,7 @@ const router = createBrowserRouter([
     path: "/",
     element: (
       <>
-        <header className="d-flex">
+        <header className="d-flex header-img">
           <img src={TopPic} className="image-fluid w-25 h-25"></img>
           <h1>Banks</h1>
           <nav className="navbar">
