@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import GithubPic from "./assets/images/GitHub-logo.png"
 import LinkedinPic from "./assets/images/LinkedIn.png"
 import StackPic from "./assets/images/stackOverflow.png"
+import TopPic from "./assets/images/Programming.webp"
 
 import App from "./App.jsx";
 import "./index.css";
@@ -14,16 +15,14 @@ import AboutPage from "./components/AboutPage";
 import { NavLink } from "react-router-dom";
 
 //need photo/avatar
-// download resume
-// list of proficiencies
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: (
       <>
-        <header>
-          {" "}
+        <header className="d-flex">
+          <img src={TopPic} className="image-fluid w-25 h-25"></img>
           <h1>Banks</h1>
           <nav className="navbar">
             <ul className="nav-list">
