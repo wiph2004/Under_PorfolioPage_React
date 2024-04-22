@@ -21,11 +21,11 @@ const router = createBrowserRouter([
     path: "/",
     element: (
       <>
-        <header className="d-flex header-img">
-          <img src={TopPic} className="image-fluid w-25 h-25"></img>
+        <header className="d-flex header-img align-items-center">
+          <img src={TopPic} className="image-fluid"></img>
           <h1>Banks</h1>
-          <nav className="navbar">
-            <ul className="nav-list">
+          <nav className="navbar w-100">
+            <ul className="nav-list mb-0">
               <li className="nav-item">
                 <NavLink to="/" activeClassName="active">
                   Home
@@ -50,23 +50,22 @@ const router = createBrowserRouter([
           </nav>
         </header>
         <App />
-        <footer>
-          <ul className='d-flex footer-links'>
+        <footer className="footer">
+          <ul className='d-flex footer-links justify-content-center align-items-center'>
             <li>
               <a
-                href="https://github.com/wiph2004/Under_PorfolioPage_React/tree/main"
-                className="d-block">
+                href="https://github.com/wiph2004/Under_PorfolioPage_React/tree/main">
                 <img src={GithubPic}
                  className='img-fluid'></img>
               </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/in/jared-banks-a65696b/" className="d-block">
+              <a href="https://www.linkedin.com/in/jared-banks-a65696b/">
                 <img src={LinkedinPic} className='img-fluid' ></img>
               </a>
             </li>
             <li>
-              <a href="https://stackoverflow.com/users/24583437/banks" className="d-block">
+              <a href="https://stackoverflow.com/users/24583437/banks">
                 <img src={StackPic} className='img-fluid' ></img>
               </a>
             </li>
