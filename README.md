@@ -56,7 +56,7 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 # Location
 
-https://cheerful-pie-e0963c.netlify.app/
+https://banksreactpage.netlify.app/
 
 
 # Credits
