@@ -34,16 +34,7 @@ header {
 
 .active {
   font-weight: bold;
-  color: lightblue;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+  color: darkblue;
 }
 
 h1 {
@@ -81,4 +72,24 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
+}
+
+footer{
+  background-color: lightgray;
+}
+footImg {
+  width: 10px;
+  height: 10px;
+}
+
+.footer-links {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.footer-links li {
+  width: 80px;
+  height: 80px;
+  margin: 20px;
 }

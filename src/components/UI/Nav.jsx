@@ -1,4 +1,4 @@
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation } from "react-router-dom";
 
 function NavTabs() {
   const currentPage = useLocation().pathname;
@@ -9,7 +9,7 @@ function NavTabs() {
         <Link
           to="/"
           // If it is, we set the current page to 'nav-link-active', otherwise we set it to 'nav-link'
-          className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === "/" ? "nav-link active" : "nav-link"}
         >
           About
         </Link>
@@ -17,8 +17,9 @@ function NavTabs() {
       <li className="nav-item">
         <Link
           to="/portfolio"
-          
-          className={currentPage === '/portfolio' ? 'nav-link active' : 'nav-link'}
+          className={
+            currentPage === "/portfolio" ? "nav-link active" : "nav-link"
+          }
         >
           Porfolio
         </Link>
@@ -26,8 +27,9 @@ function NavTabs() {
       <li className="nav-item">
         <Link
           to="/contact"
-          
-          className={currentPage === '/contact' ? 'nav-link active' : 'nav-link'}
+          className={
+            currentPage === "/contact" ? "nav-link active" : "nav-link"
+          }
         >
           Contact
         </Link>
@@ -35,8 +37,7 @@ function NavTabs() {
       <li className="nav-item">
         <Link
           to="/resume"
-         
-          className={currentPage === '/resume' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === "/resume" ? "nav-link active" : "nav-link"}
         >
           Resume
         </Link>
